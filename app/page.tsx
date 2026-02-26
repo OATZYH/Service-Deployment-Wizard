@@ -1,5 +1,9 @@
-import { ComponentExample } from "@/components/component-example";
+import { DeploymentWizard } from "@/components/wizard/DeploymentWizard";
 
 export default function Page() {
-return <ComponentExample />;
+  return (
+    <main className="min-h-svh px-4 py-12">
+      <DeploymentWizard />
+    </main>
+  );
 }
